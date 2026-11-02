@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRA — Brand Portfolio</title>
+    <link rel="icon" type="image/png" href="images/mira-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <aside class="owner-rail" aria-label="Team owners">
+        <span class="owner-rail-label">Team owners</span>
+        <div class="owner-person">
+            <img class="owner-photo" src="images/owner-1.png" alt="Lelien Olivete" tabindex="0">
+            <span class="owner-name">Lelien Olivete</span>
+        </div>
+        <div class="owner-person">
+            <img class="owner-photo" src="images/owner-don.png" alt="Don Don Marcos" tabindex="0">
+            <span class="owner-name">Don Don Marcos</span>
+        </div>
+        <div class="owner-person">
+            <img class="owner-photo" src="images/owner-placeholder.svg" alt="Photo placeholder for Cristel Ilacad" tabindex="0">
+            <span class="owner-name">Cristel Ilacad</span>
+        </div>
+        <div class="owner-person">
+            <img class="owner-photo" src="images/owner-nick.png" alt="Nick Simbe" tabindex="0">
+            <span class="owner-name">Nick Simbe</span>
+        </div>
+    </aside>
+
+    <!-- Fixed side rail -->
+    <aside class="rail" aria-label="Section navigation">
+        <a href="#top" class="rail-logo" aria-label="MIRA home">
+            <img src="images/mira-icon.png" alt="" width="36" height="36">
+        </a>
+        <nav class="rail-nav">
+            <a href="#concept" class="rail-link" data-section="concept"><span>01</span>Concept</a>
+            <a href="#logo" class="rail-link" data-section="logo"><span>02</span>Logo</a>
+            <a href="#post" class="rail-link" data-section="post"><span>03</span>Post</a>
+            <a href="#poster" class="rail-link" data-section="poster"><span>04</span>Poster</a>
+        </nav>
+        <div class="rail-meta">©26</div>
+    </aside>
+
+    <!-- Mobile top bar -->
+    <header class="topbar">
+        <a href="#top" class="topbar-logo">
+            <img src="images/mira-icon.png" alt="" width="32" height="32">
+            <span>MIRA</span>
+        </a>
+        <button class="topbar-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+    </header>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="#concept">01 — Concept</a>
+        <a href="#logo">02 — Logo</a>
+        <a href="#post">03 — Brand Post</a>
+        <a href="#poster">04 — Poster</a>
+    </div>
+
+    <main id="top">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Brand Portfolio · Final Requirement · 2026</p>
+                    <h1 class="hero-title">
+                        <span class="ht-line">Friendly</span>
+                        <span class="ht-line ht-accent">technology,</span>
+                        <span class="ht-line">made <em>simple.</em></span>
+                    </h1>
+                    <p class="hero-lede">
+                        MIRA is a modern robot brand built to make digital life feel
+                        approachable intelligent, reliable, and warmly human.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#concept" class="btn-fill">Enter the brand</a>
+                        <a href="#logo" class="btn-ghost">See the logo →</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hv-frame">
+                        <img src="images/mira-logo-mid.png" alt="MIRA mascot logo" class="hv-logo" width="720"
+                            height="720">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-marquee" aria-hidden="true">
+                <div class="marquee-track">
+                    <span>Simplify Your Day</span><span aria-hidden="true">✦</span>
+                    <span>Approachable</span><span aria-hidden="true">✦</span>
+                    <span>Smart</span><span aria-hidden="true">✦</span>
+                    <span>Modern</span><span aria-hidden="true">✦</span>
+                    <span>Memorable</span><span aria-hidden="true">✦</span>
+                    <span>Simplify Your Day</span><span aria-hidden="true">✦</span>
+                    <span>Approachable</span><span aria-hidden="true">✦</span>
+                    <span>Smart</span><span aria-hidden="true">✦</span>
+                    <span>Modern</span><span aria-hidden="true">✦</span>
+                    <span>Memorable</span><span aria-hidden="true">✦</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 01 BUSINESS CONCEPT -->
+        <section class="chapter" id="concept">
+            <header class="chapter-head">
+                <div class="ch-num">01</div>
+                <div class="ch-titles">
+                    <p class="ch-kicker">PT · Business Concept Development</p>
+                    <h2 class="ch-title">Who MIRA is,<br><em>why she exists.</em></h2>
+                </div>
+            </header>
+
+            <!-- Brand Overview content (from photo) + Vision -->
+            <div class="mv-editorial mv-4">
+                <article class="ed-block">
+                    <span class="ed-label">Mission</span>
+                    <p class="ed-text">To make technology more approachable and accessible through innovative, reliable,
+                        and user-friendly solutions.</p>
+                </article>
+                <article class="ed-block">
+                    <span class="ed-label">Vision</span>
+                    <p class="ed-text">To be the most recognizable and trusted friendly tech brand where every
+                        interaction feels simple, human, and joyful, and technology feels approachable for everyone.</p>
+                </article>
+                <article class="ed-block">
+                    <span class="ed-label">Goals</span>
+                    <p class="ed-text">To establish MIRA as a recognizable and memorable brand through a distinctive
+                        logo, consistent visual identity, and friendly brand personality.</p>
+                </article>
+                <article class="ed-block">
+                    <span class="ed-label">Values</span>
+                    <p class="ed-text">MIRA values innovation, simplicity, reliability, creativity, and accessibility.
+                        It aims to combine modern technology with a friendly design that creates a positive and engaging
+                        user experience.</p>
+                </article>
+            </div>
+
+            <!-- History / Story -->
+            <div class="story">
+                <div class="story-head">
+                    <h3 class="sp-title">Brand conceptualizing</h3>
+                    <p class="story-lede">
+                        <span class="drop">M</span>IRA is a friendly and modern robot brand designed to represent
+                        <em>intelligence, innovation, and simplicity.</em>
+                    </p>
+                </div>
+
+                <div class="story-grid">
+                    <article class="story-card story-card-quote">
+                        <span class="sc-label">Full concept</span>
+                        <p>Inspired by its cute robot logo, Mira aims to create a recognizable identity that makes
+                            technology feel more approachable, engaging, and user-friendly. The blue color palette
+                            symbolizes trust and innovation, while the bold black outlines emphasize strength and
+                            clarity. Its friendly facial expression adds personality, making Mira appear welcoming and
+                            memorable.</p>
+                    </article>
+                    <article class="story-card story-card-split">
+                        <span class="sc-label">Color language</span>
+                        <div class="color-lines">
+                            <div class="cl-item">
+                                <i class="cl-dot" style="background:#2D8CF5"></i>
+                                <div>
+                                    <strong>Blue</strong>
+                                    <p>Trust &amp; innovation</p>
+                                </div>
+                            </div>
+                            <div class="cl-item">
+                                <i class="cl-dot" style="background:#0B1F3A;border:1px solid #5A6578"></i>
+                                <div>
+                                    <strong>Black</strong>
+                                    <p>Strength &amp; clarity</p>
+                                </div>
+                            </div>
+                            <div class="cl-item">
+                                <i class="cl-dot" style="background:#fff"></i>
+                                <div>
+                                    <strong>White</strong>
+                                    <p>Clean &amp; open</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="sc-foot">Approachable · Smart · Modern · Memorable</p>
+                    </article>
+                </div>
+
+                <!-- Task block from requirement -->
+                <article class="task-block">
+                    <div class="task-side">
+                        <span class="sc-label">Task</span>
+                        <span class="task-num">PT</span>
+                    </div>
+                    <div class="task-body">
+                        <h4>Brand identity brief</h4>
+                        <p>To develop a unique and cohesive brand identity for MIRA that reflects its identity as a
+                            modern, intelligent, and approachable robot brand. The design should emphasize
+                            <strong>simplicity, creativity, and professionalism</strong> through a clean logo, a
+                            consistent <strong>blue, black, and white</strong> color palette, and recognizable visual
+                            elements. The overall goal is to create a memorable brand that communicates innovation while
+                            maintaining a friendly and accessible image.</p>
+                    </div>
+                </article>
+
+                <ol class="timeline">
+                    <li><span>01</span>
+                        <div><strong>Discovery</strong>
+                            <p>Research on approachable AI branding</p>
+                        </div>
+                    </li>
+                    <li><span>02</span>
+                        <div><strong>Concept</strong>
+                            <p>Personality: Approachable · Smart · Modern · Memorable</p>
+                        </div>
+                    </li>
+                    <li><span>03</span>
+                        <div><strong>Design</strong>
+                            <p>Logo, palette, typography system</p>
+                        </div>
+                    </li>
+                    <li><span>04</span>
+                        <div><strong>Launch</strong>
+                            <p>Brand posts, posters, digital presence</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Services -->
+            <div class="services">
+                <h3 class="sp-title">Sample products &amp; services</h3>
+                <ul class="svc-list">
+                    <li>
+                        <span class="svc-i">01</span>
+                        <div>
+                            <h4>AI Assistant Identity</h4>
+                            <p>Full brand identity for a friendly digital companion logo, voice, visual system.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="svc-i">02</span>
+                        <div>
+                            <h4>Brand Guidelines</h4>
+                            <p>Logo usage, color, typography, and tone-of-voice documentation.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="svc-i">03</span>
+                        <div>
+                            <h4>Social Media Kit</h4>
+                            <p>Post templates, stories, and captions aligned with MIRA's personality.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="svc-i">04</span>
+                        <div>
+                            <h4>Promotional Materials</h4>
+                            <p>Event posters, digital ads, and launch assets that drive awareness.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 02 LOGO DESIGN -->
+        <section class="chapter chapter-alt" id="logo">
+            <header class="chapter-head">
+                <div class="ch-num">02</div>
+                <div class="ch-titles">
+                    <p class="ch-kicker">CT · Logo Design</p>
+                    <h2 class="ch-title">The mark<br><em>behind MIRA.</em></h2>
+                </div>
+            </header>
+
+            <!-- Big logo presentation -->
+            <div class="logo-stage">
+                <div class="ls-canvas">
+                    <img src="images/mira-logo-mid.png" alt="MIRA primary logo" width="720" height="720">
+                </div>
+                <div class="ls-side">
+                    <p class="ls-tag">Design idea</p>
+                    <ul class="ls-words">
+                        <li>Approachable</li>
+                        <li>Smart</li>
+                        <li>Modern</li>
+                        <li>Memorable</li>
+                    </ul>
+                    <div class="ls-wordmark">
+                        <span class="ls-mira">MIRA</span>
+                        <span class="ls-tagline">Simplify Your Day.</span>
+                    </div>
+                    <p class="ls-desc">A compact character mark friendly, expressive, and digital. Glossy blue outer
+                        shell, dark face, smiling eyes. Modern technology with a welcoming personality.</p>
+                </div>
+            </div>
+
+            <!-- Process -->
+            <div class="process">
+                <h3 class="sp-title">Logo process</h3>
+                <div class="proc-grid">
+                    <article class="proc">
+                        <span class="proc-n">01</span>
+                        <h4>Research</h4>
+                        <p>Explored friendly tech mascots, AI assistants, approachable brand marks.</p>
+                    </article>
+                    <article class="proc">
+                        <span class="proc-n">02</span>
+                        <h4>Sketch</h4>
+                        <p>Iterated rounded robot silhouettes, eye expressions, accent details.</p>
+                    </article>
+                    <article class="proc">
+                        <span class="proc-n">03</span>
+                        <h4>Refine</h4>
+                        <p>Balanced blue shell, dark face contrast, smiling eyes at all sizes.</p>
+                    </article>
+                    <article class="proc">
+                        <span class="proc-n">04</span>
+                        <h4>Finalize</h4>
+                        <p>Locked palette, proportions, and wordmark pairing.</p>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Symbolism -->
+            <div class="symbolism">
+                <h3 class="sp-title">Symbolism</h3>
+                <div class="sym-grid">
+                    <article class="sym">
+                        <span>01</span>
+                        <h4>Blue outer shell</h4>
+                        <p>Technology, clarity, trust, protective digital space.</p>
+                    </article>
+                    <article class="sym">
+                        <span>02</span>
+                        <h4>Dark face</h4>
+                        <p>Contrast confident, modern identity.</p>
+                    </article>
+                    <article class="sym">
+                        <span>03</span>
+                        <h4>Smiling eyes</h4>
+                        <p>Friendliness, calm, approachable experience.</p>
+                    </article>
+                    <article class="sym">
+                        <span>04</span>
+                        <h4>Blue drop accent</h4>
+                        <p>Energy and a distinctive highlight.</p>
+                    </article>
+                    <article class="sym">
+                        <span>05</span>
+                        <h4>Rounded body</h4>
+                        <p>Soft, supportive less intimidating than a machine.</p>
+                    </article>
+                    <article class="sym sym-sum">
+                        <h4>Overall</h4>
+                        <p>A helpful, friendly, technology-driven assistant.</p>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Palette -->
+            <div class="palette">
+                <h3 class="sp-title">Color scheme / palette</h3>
+                <div class="pal-row">
+                    <div class="pal-swatch" style="--c:#2D8CF5">
+                        <div class="pal-chip"></div>
+                        <div class="pal-meta">
+                            <strong>Digital Blue</strong>
+                            <code>#2D8CF5</code>
+                            <span>Primary · Trust &amp; Innovation</span>
+                        </div>
+                    </div>
+                    <div class="pal-swatch" style="--c:#5BC0FF">
+                        <div class="pal-chip"></div>
+                        <div class="pal-meta">
+                            <strong>Light Blue</strong>
+                            <code>#5BC0FF</code>
+                            <span>Accent · Energy</span>
+                        </div>
+                    </div>
+                    <div class="pal-swatch" style="--c:#0B1F3A">
+                        <div class="pal-chip"></div>
+                        <div class="pal-meta">
+                            <strong>Deep Charcoal</strong>
+                            <code>#0B1F3A</code>
+                            <span>Contrast · Strength</span>
+                        </div>
+                    </div>
+                    <div class="pal-swatch" style="--c:#FFFFFF">
+                        <div class="pal-chip pal-chip-light"></div>
+                        <div class="pal-meta">
+                            <strong>White</strong>
+                            <code>#FFFFFF</code>
+                            <span>Neutral · Clean</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typography -->
+            <div class="type-block">
+                <h3 class="sp-title">Typography</h3>
+                <div class="type-panel">
+                    <div class="tp-left">
+                        <div class="tp-aa">Aa</div>
+                        <div class="tp-meta">
+                            <strong>Rounded Sans Serif</strong>
+                            <p>Soft, approachable letterforms that reflect MIRA's friendly AI personality. Friendly,
+                                modern, and easy to read.</p>
+                        </div>
+                    </div>
+                    <div class="tp-right">
+                        <div class="tp-w"><span>Bold</span><b>MIRA</b></div>
+                        <div class="tp-w"><span>Medium</span><b class="tp-md">Your Intelligent Real-life Assistant</b>
+                        </div>
+                        <div class="tp-w"><span>Script accent</span><b class="tp-sc">Simplify Your Day</b></div>
+                        <div class="tp-abc">
+                            <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                            <p>abcdefghijklmnopqrstuvwxyz</p>
+                            <p>0123456789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 03 BRAND POST -->
+        <section class="chapter" id="post">
+            <header class="chapter-head">
+                <div class="ch-num">03</div>
+                <div class="ch-titles">
+                    <p class="ch-kicker">CT · First Ever Brand Post</p>
+                    <h2 class="ch-title">Debut post,<br><em>first impression.</em></h2>
+                </div>
+            </header>
+
+            <div class="post-layout">
+                <!-- Phone-style post -->
+                <article class="ig-post" aria-label="MIRA first brand post">
+                    <div class="ig-head">
+                        <div class="ig-ava"><img src="images/mira-icon.png" alt="" width="40" height="40"></div>
+                        <div class="ig-user">
+                            <strong>mira.assistant</strong>
+                            <span>Sponsored</span>
+                        </div>
+                        <span class="ig-dots" aria-hidden="true">···</span>
+                    </div>
+                    <div class="ig-visual">
+                        <div class="igv-inner">
+                            <span class="igv-badge">NEW · INTRODUCING</span>
+                            <img src="images/mira-logo-mid.png" alt="" class="igv-logo" width="720" height="720">
+                            <div class="igv-brand">MIRA</div>
+                            <div class="igv-tag">Simplify Your Day.</div>
+                            <div class="igv-sub">Your Intelligent Real-life Assistant</div>
+                        </div>
+                    </div>
+                    <div class="ig-actions">
+                        <button class="ig-act" data-like aria-label="Like">
+                            <svg viewBox="0 0 24 24" width="22" height="22">
+                                <path
+                                    d="M12 21s-7-4.5-9.5-8.5C.5 9 2.5 5 6.5 5c2 0 3.5 1.5 5.5 3.5C14 6.5 15.5 5 17.5 5c4 0 6 4 4 7.5C19 16.5 12 21 12 21z"
+                                    fill="none" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </button>
+                        <button class="ig-act" aria-label="Comment">
+                            <svg viewBox="0 0 24 24" width="22" height="22">
+                                <path d="M21 12a8 8 0 01-8 8H4l2-3a8 8 0 1115-5z" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="ig-act" aria-label="Share">
+                            <svg viewBox="0 0 24 24" width="22" height="22">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <span class="ig-likes" id="likeCount">1,248 likes</span>
+                    </div>
+                    <div class="ig-caption">
+                        <strong>mira.assistant</strong>
+                        Hello, world! 👋 Meet <strong>MIRA</strong> your friendly digital companion. Built to make
+                        technology feel simpler, warmer, and more human. <em>Simplify Your Day.</em> ✨
+                        <span class="ig-tags">#MIRA #SimplifyYourDay #AIAssistant #FriendlyTech #BrandLaunch</span>
+                    </div>
+                </article>
+
+                <!-- Specs -->
+                <div class="post-specs">
+                    <div class="spec">
+                        <h4>Color scheme / palette</h4>
+                        <div class="spec-chips">
+                            <span style="background:#2D8CF5">Primary</span>
+                            <span style="background:#5BC0FF">Accent</span>
+                            <span style="background:#0B1F3A">Contrast</span>
+                            <span style="background:#fff;color:#0B1F3A;border:1px solid #333">Base</span>
+                        </div>
+                    </div>
+                    <div class="spec">
+                        <h4>Typography</h4>
+                        <div class="spec-type">
+                            <div><em>Headline</em><b>MIRA Bold Rounded Sans</b></div>
+                            <div><em>Body</em><b class="regular">Friendly, modern, and easy to read</b></div>
+                            <div><em>Accent</em><b class="script">Simplify Your Day</b></div>
+                        </div>
+                    </div>
+                    <div class="spec">
+                        <h4>Caption</h4>
+                        <blockquote class="spec-quote">"Hello, world! 👋 Meet <strong>MIRA</strong> your friendly
+                            digital companion. Built to make technology feel simpler, warmer, and more human.
+                            <em>Simplify Your Day.</em> ✨"</blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04 PROMO POSTER -->
+        <section class="chapter chapter-alt" id="poster">
+            <header class="chapter-head">
+                <div class="ch-num">04</div>
+                <div class="ch-titles">
+                    <p class="ch-kicker">CT · Promotional Event Poster</p>
+                    <h2 class="ch-title">Launch event<br><em>poster.</em></h2>
+                </div>
+            </header>
+
+            <div class="poster-layout">
+                <!-- Poster -->
+                <article class="poster" aria-label="MIRA launch event poster">
+                    <div class="poster-top">
+                        <div class="poster-brand">
+                            <img src="images/mira-icon.png" alt="" width="30" height="30">
+                            <span>MIRA</span>
+                        </div>
+                        <span class="poster-badge">LAUNCH EVENT</span>
+                    </div>
+                    <div class="poster-mid">
+                        <p class="poster-kicker">You're invited</p>
+                        <h3 class="poster-title">MEET<br><span>MIRA</span></h3>
+                        <p class="poster-sub">A Friendly Digital Companion<br>Launch Experience</p>
+                        <img src="images/mira-logo-mid.png" alt="" class="poster-logo" width="720" height="720">
+                    </div>
+                    <div class="poster-bot">
+                        <dl class="poster-dl">
+                            <div>
+                                <dt>When</dt>
+                                <dd>December 15, 2026 · 2:00 PM</dd>
+                            </div>
+                            <div>
+                                <dt>Where</dt>
+                                <dd>Innovation Hub · Main Hall</dd>
+                            </div>
+                            <div>
+                                <dt>Theme</dt>
+                                <dd>Simplify Your Day</dd>
+                            </div>
+                        </dl>
+                        <div class="poster-cta">RSVP · FREE ENTRY</div>
+                    </div>
+                </article>
+
+                <!-- Specs -->
+                <div class="poster-specs">
+                    <div class="spec">
+                        <h4>Color scheme / palette</h4>
+                        <div class="spec-chips">
+                            <span style="background:#2D8CF5">Primary</span>
+                            <span style="background:#5BC0FF">Accent</span>
+                            <span style="background:#0B1F3A">Contrast</span>
+                            <span style="background:#fff;color:#0B1F3A;border:1px solid #333">Base</span>
+                        </div>
+                    </div>
+                    <div class="spec">
+                        <h4>Typography</h4>
+                        <div class="spec-type">
+                            <div><em>Title</em><b>MEET MIRA — Extra Bold</b></div>
+                            <div><em>Body</em><b class="regular">Event details · Clean Sans</b></div>
+                            <div><em>Accent</em><b class="script">Simplify Your Day</b></div>
+                        </div>
+                    </div>
+                    <div class="spec">
+                        <h4>Design notes</h4>
+                        <p class="spec-notes">High contrast blue/charcoal palette with centered mascot focal point. Bold
+                            headline hierarchy, clear event details, single call-to-action for maximum impact.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-in">
+            <div class="f-brand">
+                <img src="images/mira-icon.png" alt="" width="28" height="28">
+                <span>MIRA</span>
+            </div>
+            <p>Brand Portfolio · Final Requirement · HTML / CSS / JS</p>
+            <p class="f-copy">© 2026 MIRA</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
